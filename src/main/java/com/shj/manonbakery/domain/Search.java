@@ -1,4 +1,4 @@
-package com.shj.manonbakery;
+package com.shj.manonbakery.domain;
 
 public class Search {
 }
