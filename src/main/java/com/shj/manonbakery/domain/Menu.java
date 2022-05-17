@@ -7,9 +7,10 @@ import javax.persistence.Id;
 
 @Entity
 public abstract class Menu {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Column(name = "PRODUCT_NUMBER")
-    private  Long product_number; // int 아닌가?..
+    private Long product_number; // int 아닌가?..
 
     @Column(name = "TITLE")
     private String title;
