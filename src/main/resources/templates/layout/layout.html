@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultrap.net.nz/thymeleaf/layout">
-    <head>
-        <!-- config.html -->
-        <th:block th:replace="fragments/config::configFragment"></th:block>
-    </head>
+
+    <!-- head.html -->
+    <head th:replace="fragments/head::headFragment"></head>
 
     <!-- header.html -->
     <header th:replace="fragments/header::headerFragment"></header>
@@ -15,5 +14,5 @@
     <!-- footer.html -->
     <footer th:replace="fragments/footer::footerFragment"></footer>
 
-    <th:block th:replace="fragments/scriptJS::scriptFragment"></th:block>
+    <th:block th:replace="fragments/config::configFragment"></th:block>
 </html>
