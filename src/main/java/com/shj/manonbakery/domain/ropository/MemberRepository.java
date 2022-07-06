@@ -1,4 +1,4 @@
-package com.shj.manonbakery.ropository;
+package com.shj.manonbakery.domain.ropository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
